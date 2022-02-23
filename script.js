@@ -8,13 +8,5 @@ function changeGradient() {
 	h3.textContent = body.style.background + ";";
 }
 
-// function cssLine(event) {				Ko te jebe
-// 	var h3 = document.getElementById("h3");
-// 	var line = document.createTextNode("CLLLLLLRRR");
-// 	h3.appendChild(line);
-// 	var line1 = document.createTextNode("background: linear-gradient(to right, " + value1 + ", "+ value2 +");");
-// 	h3.appendChild(line1);
-// }
-
 color1.addEventListener("input", changeGradient);
 color2.addEventListener("input", changeGradient);
